@@ -1,0 +1,19 @@
+.digital_clock {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+.digital_clock_divs {
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+@media screen and (max-width: 600px) {
+  .digital_clock {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    margin-top: 28px;
+  }
+}
